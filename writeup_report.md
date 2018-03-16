@@ -4,6 +4,8 @@
 
 **Vehicle Detection Project**
 
+(Note - Hi I have removed the training dataset (vehicles and non-vehicles data) from the git repo as I generally get a 'Too Many files' error while submission)
+
 The goals / steps of this project are the following:
 
 * Perform a Histogram of Oriented Gradients (HOG) feature extraction on a labeled training set of images and train a classifier Linear SVM classifier
