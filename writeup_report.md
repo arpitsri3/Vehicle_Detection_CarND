@@ -179,5 +179,7 @@ Here's an example result showing the heatmap from a series of frames of video, t
 
 The biggest issue that I faced was finding a combination which would work decently on the hardware i had. Although I am personally not that happy with the result but I am kind of happy that the output video (although looses tracking on the white car for some 2 seconds at one point and flickers) turned out to be better than i had hoped to achieve with the constraints, considering only 300+ features. Since my initial result had a lot of false positives I had to run on multiple scales and then apply a heatmap threshold of 3 to weed out the false positives.
 
-The result has a lot of room for improvement and hopefully i will try to improve it as soon as i have access to better configuration. 
+Another point is that currently my search area for cars is limited to the right side of the frames as decreasing the search area is better for faster computation. But this solution won't work in say a case where road is three laned and we are in the center lane and cars may come from either of the right or left lane. So the result can be further generalized if we have better computational power. 
+
+The result has a lot of room for improvement and hopefully i will try to improve it as soon as i have access to better devics configuration. 
 
